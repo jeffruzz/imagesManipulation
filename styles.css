@@ -1,0 +1,25 @@
+.ImageClass {
+    background: url("bitcoin.svg") no-repeat scroll 2px 3px ;
+    padding: 0px 0px 0px 20px !important;
+	background-size: 47px 40px;
+    padding: 0px 0px 0px 20px !important;
+    width: 210px;
+    height: 50px;    
+    position: absolute;
+    right: 50%;
+    margin-top: 200px;
+}
+.borderClass{
+	border-radius: 12px 12px 12px 12px;
+    box-shadow: 0 0 19px rgba(0,0,0,0.1);
+    border: 1px solid #e1e1e1;
+}
+.ImageClass:hover {
+  padding-right: 25px;
+  background: url("bitcoin.svg") no-repeat scroll 50px 3px rgba(255, 156, 7, 0.8);
+  background-size: 47px 40px;
+  z-index:100px
+}
+.ImageClass:hover >h4{
+opacity:0;
+}
